@@ -1,0 +1,32 @@
+Source: spritifier
+Section: devel
+Priority: optional
+Maintainer: Mathieu Perrin <mathieu@yakaz.com>
+Uploaders: Jean-Sébastien Pédron <jean-sebastien@yakaz.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.1
+
+Package: spritifier
+Architecture: all
+Section: devel
+Priority: optional
+Depends: ${misc:Depends},
+ php5-cli,
+ php5-gd,
+ pngcrush,
+ optipng
+Description: Helps to generate an image sprite+css for websites
+ .
+ Spritifier offers a simplified process to generate an image sprite. A
+ sprite is useful to reduce the number of http requests needed for your
+ images. So, the website loads more quickly.
+ Through Spritifier, the sprite generation process can become a part of
+ a continuous integration system. It is also possible to use it manually
+ via a web interface, to better understand the generation process or
+ tweak it with a rapid visual feedback
+ .
+ How does it work? Spritifier simply takes a css file which defines the images
+ (or icons preferably) that are used in your website. It then compiles them to
+ a new single image (the sprite) with all your icons and a new css file
+ describing the sprite. See readme.txt for more information
+ .

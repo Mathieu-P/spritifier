@@ -1,0 +1,37 @@
+spritifier (2.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Jenkins Continuous-Integration <jean-sebastien+build-tools@yakaz.com>  Tue, 02 Apr 2013 17:15:37 +0200
+
+spritifier (2.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Jenkins Continuous-Integration <jean-sebastien+build-tools@yakaz.com>  Wed, 27 Mar 2013 17:15:58 +0100
+
+spritifier (2.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Jenkins Continuous-Integration <jean-sebastien+build-tools@yakaz.com>  Wed, 27 Mar 2013 17:14:50 +0100
+
+spritifier (1.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Jenkins Continuous-Integration <jean-sebastien+build-tools@yakaz.com>  Mon, 20 Aug 2012 17:12:05 +0200
+
+spritifier (1.1-1) experimental; urgency=low
+
+  * exit(1) if the spritifier can't write output files.
+  * Add manpage for spritifier(1).
+  * Please lintian(1).
+
+ -- Jean-Sébastien Pédron <jean-sebastien@yakaz.com>  Mon, 20 Aug 2012 15:22:13 +0200
+
+spritifier (1.0-1) experimental; urgency=low
+
+  * Initial release
+
+ -- Mathieu Perrin <mathieu@yakaz.com>  Mon, 23 Jul 2012 14:41:01 +0200

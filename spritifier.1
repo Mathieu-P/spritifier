@@ -1,0 +1,44 @@
+.Dd August 20, 2012
+.Dt SPRITIFIER 1
+.Os
+.
+.Sh NAME
+.Nm spritifier
+.Nd generate image sprite+css for websites
+.
+.Sh SYNOPSIS
+.Nm
+.Op Fl mode Ar mode
+.Op Fl width Ar width
+.Op Fl sortByColor Ar color-sort-mode
+.Op Fl spritierConf Ar config-file
+.Op Fl cssInput Ar css-input-file
+.Op Fl cssOutput Ar css-output-file
+.Op Fl pngOutput Ar png-outout-file
+.Op Fl pngWebUrl Ar png-web-url
+.Op Fl imgRootPath Ar img-root-path
+.Op Fl verbose Ar verbose
+.Op Fl dry-run Ar dry-run
+.Op Fl libpath Ar lib-path
+.
+.Sh DESCRIPTION
+.Nm
+offers a simplified process to generate an image sprite.
+A sprite is useful to reduce the number of http requests needed for your
+images.
+So, the website loads more quickly.
+.Pp
+Through
+.Nm ,
+the sprite generation process can become a part of a continuous
+integration system.
+It is also possible to use it manually via a web interface, to better
+understand the generation process or tweak it with a rapid visual
+feedback.
+.Pp
+How does it work?
+.Nm
+simply takes a css file which defines the images (or icons preferably)
+that are used in your website.
+It then compiles them to a new single image (the sprite) with all your
+icons and a new css file describing the sprite.

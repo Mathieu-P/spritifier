@@ -1,0 +1,108 @@
+.arrow_exchange_icon {
+  display:inline-block;
+  width:48px;
+  height:48px;
+  background:url(testProject/img/arrow_exchange.png) no-repeat scroll 0 0;
+}
+.arrow_left_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/arrow_left.png) no-repeat scroll 0 0;
+}
+.arrow_right_icon {
+  display:inline-block;
+  width:32px;
+  height:32px;
+  background:url(testProject/img/arrow_right.png) no-repeat scroll 0 0;
+}
+.arrow_next_icon {
+  display:inline-block;
+  width:16px;
+  height:16px;
+  background:url(testProject/img/arrow_next.png) no-repeat scroll 0 0;
+}
+.arrow_refresh_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/arrow_refresh.png) no-repeat scroll 0 0;
+}
+.camera_icon {
+  display:inline-block;
+  width:16px;
+  height:16px;
+  background:url(testProject/img/camera.png) no-repeat scroll 0 0;
+}
+.christmas_icon {
+  display:inline-block;
+  width:72px;
+  height:72px;
+  background:url(testProject/img/christmas.png) no-repeat scroll 0 0;
+}
+.download_icon {
+  display:inline-block;
+  width:48px;
+  height:48px;
+  background:url(testProject/img/download.png) no-repeat scroll 0 0;
+}
+.firefox_icon {
+  display:inline-block;
+  width:32px;
+  height:32px;
+  background:url(testProject/img/firefox.png) no-repeat scroll 0 0;
+}
+.forbidden_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/forbidden.png) no-repeat scroll 0 0;
+}
+.gift_icon {
+  display:inline-block;
+  width:48px;
+  height:48px;
+  background:url(testProject/img/gift.png) no-repeat scroll 0 0;
+}
+.play_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/play.png) no-repeat scroll 0 0;
+}
+.race_icon {
+  display:inline-block;
+  width:30px;
+  height:30px;
+  background:url(testProject/img/race.png) no-repeat scroll 0 0;
+}
+.votedown_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/votedown.gif) no-repeat scroll 0 0;
+}
+.voteup_icon {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(testProject/img/voteup.gif) no-repeat scroll 0 0;
+}
+.button_feed_icon {
+  display:inline-block;
+  width:128px;
+  height:48px;
+  background:url(testProject/img/button_feed.png) no-repeat scroll 0 0;
+}
+.button_share_icon {
+  display:inline-block;
+  width:122px;
+  height:42px;
+  background:url(testProject/img/button_share.png) no-repeat scroll 0 0;
+}
+.button_subscribe_icon {
+  display:inline-block;
+  width:128px;
+  height:48px;
+  background:url(testProject/img/button_subscribe.png) no-repeat scroll 0 0;
+}
